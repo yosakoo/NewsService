@@ -1,10 +1,11 @@
 package com.example.NewsService.web.mapper;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface Mappable<E, D> {
 
-    E toEntity(D d);
+   E toEntity(D d);
 
     List<E> toEntity(List<D> d);
 
